@@ -1,0 +1,17 @@
+{
+  "name": "VA Helper",
+  "version": "1.0.0",
+  "description": "Help estimate and calculate VA disability ratings.",
+  "manifest_version": 3,
+  "author": "Edward Menser",
+  "content_scripts": [
+    {
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "https://eauth.va.gov/ebenefits/disabilities"
+      ]
+    }
+  ]
+}
